@@ -15,6 +15,11 @@
 		78BF690A2323CC080073D4DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78BF69082323CC080073D4DE /* LaunchScreen.storyboard */; };
 		78BF69152323CC080073D4DE /* StickyHeaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BF69142323CC080073D4DE /* StickyHeaderTests.swift */; };
 		78BF69202323CC080073D4DE /* StickyHeaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BF691F2323CC080073D4DE /* StickyHeaderUITests.swift */; };
+		78BF692E2323CC5C0073D4DE /* UberCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BF692D2323CC5C0073D4DE /* UberCollectionViewController.swift */; };
+		78BF69332323CE8F0073D4DE /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BF69322323CE8F0073D4DE /* Protocols.swift */; };
+		78BF6935232549730073D4DE /* Providers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BF6934232549730073D4DE /* Providers.swift */; };
+		78BF693923254D210073D4DE /* RowCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BF693823254D210073D4DE /* RowCollectionViewCell.swift */; };
+		78E2F4DB232551DF00369641 /* HeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78E2F4DA232551DF00369641 /* HeaderCollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		78BF691B2323CC080073D4DE /* StickyHeaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StickyHeaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BF691F2323CC080073D4DE /* StickyHeaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickyHeaderUITests.swift; sourceTree = "<group>"; };
 		78BF69212323CC080073D4DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78BF692D2323CC5C0073D4DE /* UberCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberCollectionViewController.swift; sourceTree = "<group>"; };
+		78BF69322323CE8F0073D4DE /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		78BF6934232549730073D4DE /* Providers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Providers.swift; sourceTree = "<group>"; };
+		78BF693823254D210073D4DE /* RowCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowCollectionViewCell.swift; sourceTree = "<group>"; };
+		78E2F4DA232551DF00369641 /* HeaderCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderCollectionReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				78BF69062323CC080073D4DE /* Assets.xcassets */,
 				78BF69082323CC080073D4DE /* LaunchScreen.storyboard */,
 				78BF690B2323CC080073D4DE /* Info.plist */,
+				78BF692D2323CC5C0073D4DE /* UberCollectionViewController.swift */,
+				78BF69322323CE8F0073D4DE /* Protocols.swift */,
+				78BF6934232549730073D4DE /* Providers.swift */,
+				78BF693823254D210073D4DE /* RowCollectionViewCell.swift */,
+				78E2F4DA232551DF00369641 /* HeaderCollectionReusableView.swift */,
 			);
 			path = StickyHeader;
 			sourceTree = "<group>";
@@ -259,8 +274,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78E2F4DB232551DF00369641 /* HeaderCollectionReusableView.swift in Sources */,
+				78BF69332323CE8F0073D4DE /* Protocols.swift in Sources */,
 				78BF69022323CC070073D4DE /* ViewController.swift in Sources */,
+				78BF6935232549730073D4DE /* Providers.swift in Sources */,
 				78BF68FE2323CC070073D4DE /* AppDelegate.swift in Sources */,
+				78BF693923254D210073D4DE /* RowCollectionViewCell.swift in Sources */,
+				78BF692E2323CC5C0073D4DE /* UberCollectionViewController.swift in Sources */,
 				78BF69002323CC070073D4DE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
